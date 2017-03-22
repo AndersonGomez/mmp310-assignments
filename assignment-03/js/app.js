@@ -25,3 +25,22 @@ var buttonEnlarge = document.getElementById('enlarge-div');
  +}
  
  
+ 
+ 
+ function shrink() {
+ +    if (div.height > 100 && div.width > 100) {
+ +        div.height -= 100;
+ +        div.element.style.height = div.height + "px";
+ +    
+ +        div.width -= 100;
+ +        div.element.style.width = div.width + "px";
+ +    } else {
+ +        alert("The div is too small!");
+ +    }
+ +} 
+
+
+ 
+ 
+ 
+ 
