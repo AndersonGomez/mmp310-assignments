@@ -12,5 +12,16 @@ var buttonEnlarge = document.getElementById('enlarge-div');
  +buttonEnlarge.addEventListener('click', grow);
  +buttonShrink.addEventListener('click', shrink);
  +
-/*jslint browser, es6, single, for, devel, this */
-/*global window */
+     function grow() {
+ +    if (div.height < 500 && div.width < 500) {
+ +        div.height += 100;
+ +        div.element.style.height = div.height + "px";
+ +    
+ +        div.width += 100;
+ +        div.element.style.width = div.width + "px";
+ +    } else {
+ +        alert("The div is too large!");
+ +    }
+ +}
+ 
+ 
