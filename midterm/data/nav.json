@@ -1,5 +1,5 @@
 headerNav({
-  "items":[
+  "items":[                                      
     {
       "label":"Work",
       "url":"#/work",
